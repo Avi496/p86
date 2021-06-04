@@ -1,0 +1,10 @@
+.background{
+    background-image: url("https://i.ytimg.com/vi/hXFqcJmQ24Y/maxresdefault.jpg");
+    background-position: center;
+}
+#canvas_for_super{
+    border-color:rgb(41, 39, 39);
+    border-style: ridge;
+    border-width: 10px;
+    background-color:ghostwhite;
+}

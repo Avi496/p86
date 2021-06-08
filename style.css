@@ -8,3 +8,14 @@
     border-width: 10px;
     background-color:ghostwhite;
 }
+#div_for_current_sizes{
+    width:600px;
+    margin-bottom:10px;
+}
+h3{
+    display:inline-block;
+}
+h2{
+    width:200px;
+    padding:5px;
+}

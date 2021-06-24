@@ -29,3 +29,46 @@
         canvas.add(super_object);
     })
 }
+window.addEventListener("keydown", mykeydown);
+function mykeydown(e){
+  keypressed=e.keyCode;
+  if(e.shiftKey==true && keypressed=="80"){
+    block_width=block_width+10;
+    block_height=block_height+10;
+    document.getElementById("current width").innerHTML=block_width;
+    document.getElementById("current height").innerHTML=block_height;
+  }
+  if(e.shiftKey==true && keypressed=="77"){
+    block_width=block_width-10;
+    block_height=block_height-10;
+    document.getElementById("current width").innerHTML=block_width;
+    document.getElementById("current height").innerHTML=block_height;
+  }
+  if(keypressed=="70"){
+    new_img("https://i.postimg.cc/hGnyTPLB/ironman-face.png");
+  }
+  if(keypressed=="66"){
+    new_img("https://i.postimg.cc/FscwL6M0/spiderman-body.png");
+  }
+  if(keypressed=="76"){
+    new_img("https://drive.google.com/file/d/1PHnkIw5TK441tEvAbSwJ5NlS5ZtDCKSD/view?usp=sharing");
+  }
+  if(keypressed=="76"){
+    new_img("https://drive.google.com/file/d/1PHnkIw5TK441tEvAbSwJ5NlS5ZtDCKSD/view?usp=sharing");
+  }
+  if(keypressed=="82"){
+    new_img("https://drive.google.com/file/d/1drXx-jBFqBCrWyJ7fUTmFtGN8RuqCY-D/view?usp=sharing");
+  }
+  if(keypressed=="38"){
+    up();
+  }
+  if(keypressed=="40"){
+    down();
+  }
+  if(keypressed=="37"){
+    left();
+  }
+  if(keypressed=="39"){
+    right();
+  }
+}
